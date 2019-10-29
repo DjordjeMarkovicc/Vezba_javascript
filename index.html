@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Java script vezba</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script type="text/javascript">
+        var started = new Date();
+        var now = started.getTime();
+    </script>
+    
+</head>
+<body>
+        <div>
+            <h1 style="text-align: center">Java script vezba<br><br></h1>
+        </div>
+
+        <div>
+            <form action="#" id="myform" onsubmit="return alertName()">
+                <p>Username: <input id="nametext" type="text"> <input type="submit"></p>
+                <p>Opcija 1: Steve, Opcija 2: Tim, Opcija 3: bilo sta</p>
+            </form>
+        </div>
+        <hr>
+        <div>
+            <form action="#" onsubmit="return inputNum()">
+                <p>Molim vas unesite broj izmedju 50 - 100: <input type="text" id="broj"> <input type="submit"></p>
+                <p>Opcija1: one, two, three, four... Opcija 2: x&lt;50 ili x&gt;100 Opcija3: bilo sta</p>
+            </form>
+        </div>
+        <hr>
+            <script type="text/javascript">
+                document.write("Is Not a Number " + isNaN("4") + " 4 <br>");
+                document.write('Is Not a Number ' + isNaN('four') + ' four <br>');
+                document.write(Math.PI + "<br><br>");
+                document.write("Hello \"hello\" goodbye<hr>");
+            </script>
+        <div>
+            <p id='ob'></p>
+            <p id="one"></p>
+        </div>
+
+        
+
+
+    <script src="skripta.js"></script>
+</body>
+</html>
